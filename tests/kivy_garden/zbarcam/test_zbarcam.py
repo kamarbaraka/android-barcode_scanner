@@ -4,7 +4,7 @@ from unittest import mock
 
 from kivy.base import EventLoop
 from kivy.core.image import Image
-from kivy_garden.zbarcam import ZBarCam
+from src.kivy_garden.zbarcam import ZBarCam
 
 FIXTURE_DIR = os.path.join(
     os.path.abspath(
